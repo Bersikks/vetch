@@ -7,9 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F9C9F462B74A0FB00706A5D /* NewPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9C9F452B74A0FB00706A5D /* NewPassViewController.swift */; };
+		5F9C9F472B74A0FB00706A5D /* NewPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9C9F452B74A0FB00706A5D /* NewPassViewController.swift */; };
+		5F9C9F482B74A0FB00706A5D /* NewPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9C9F452B74A0FB00706A5D /* NewPassViewController.swift */; };
+		5FA29D0F2B73215000C955F1 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA29D0E2B73215000C955F1 /* ForgotPasswordViewController.swift */; };
+		5FA29D102B73215000C955F1 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA29D0E2B73215000C955F1 /* ForgotPasswordViewController.swift */; };
+		5FA29D112B73215000C955F1 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA29D0E2B73215000C955F1 /* ForgotPasswordViewController.swift */; };
+		5FA29D132B736FE300C955F1 /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA29D122B736FE300C955F1 /* OTPViewController.swift */; };
+		5FA29D142B736FE300C955F1 /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA29D122B736FE300C955F1 /* OTPViewController.swift */; };
+		5FA29D152B736FE300C955F1 /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA29D122B736FE300C955F1 /* OTPViewController.swift */; };
 		5FBA709B2B70943F00B7E069 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBA709A2B70943F00B7E069 /* SignUpViewController.swift */; };
 		5FBA709C2B70943F00B7E069 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBA709A2B70943F00B7E069 /* SignUpViewController.swift */; };
 		5FBA709D2B70943F00B7E069 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBA709A2B70943F00B7E069 /* SignUpViewController.swift */; };
+		5FC089D82B722854004C30D0 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC089D72B722854004C30D0 /* SignInViewController.swift */; };
+		5FC089D92B722855004C30D0 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC089D72B722854004C30D0 /* SignInViewController.swift */; };
+		5FC089DA2B722855004C30D0 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC089D72B722854004C30D0 /* SignInViewController.swift */; };
 		5FCD2AFC2B6B60DC00C26CD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCD2AFB2B6B60DC00C26CD8 /* AppDelegate.swift */; };
 		5FCD2AFE2B6B60DC00C26CD8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCD2AFD2B6B60DC00C26CD8 /* SceneDelegate.swift */; };
 		5FCD2B032B6B60DC00C26CD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FCD2B012B6B60DC00C26CD8 /* Main.storyboard */; };
@@ -65,7 +77,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F9C9F452B74A0FB00706A5D /* NewPassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPassViewController.swift; sourceTree = "<group>"; };
+		5FA29D0E2B73215000C955F1 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		5FA29D122B736FE300C955F1 /* OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
 		5FBA709A2B70943F00B7E069 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		5FC089D72B722854004C30D0 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		5FCD2AF82B6B60DC00C26CD8 /* Redi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Redi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FCD2AFB2B6B60DC00C26CD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FCD2AFD2B6B60DC00C26CD8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -171,7 +187,12 @@
 		5FCD2B5D2B6B723000C26CD8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5FA29D122B736FE300C955F1 /* OTPViewController.swift */,
+				5FBA709A2B70943F00B7E069 /* SignUpViewController.swift */,
+				5FC089D72B722854004C30D0 /* SignInViewController.swift */,
+				5FA29D0E2B73215000C955F1 /* ForgotPasswordViewController.swift */,
 				5FCD2B5E2B6B723800C26CD8 /* onBoarding */,
+				5F9C9F452B74A0FB00706A5D /* NewPassViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -181,7 +202,6 @@
 			children = (
 				5FCD2B5F2B6B726300C26CD8 /* OnBoardingCollectionViewCell.swift */,
 				5FCD2B632B6B72C200C26CD8 /* OnBoardingViewController.swift */,
-				5FBA709A2B70943F00B7E069 /* SignUpViewController.swift */,
 			);
 			path = onBoarding;
 			sourceTree = "<group>";
@@ -360,10 +380,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FA29D132B736FE300C955F1 /* OTPViewController.swift in Sources */,
 				5FCD2B6E2B6B73A200C26CD8 /* UIView+Extensions.swift in Sources */,
+				5F9C9F462B74A0FB00706A5D /* NewPassViewController.swift in Sources */,
 				5FBA709B2B70943F00B7E069 /* SignUpViewController.swift in Sources */,
 				5FCD2AFC2B6B60DC00C26CD8 /* AppDelegate.swift in Sources */,
 				5FCD2AFE2B6B60DC00C26CD8 /* SceneDelegate.swift in Sources */,
+				5FC089D82B722854004C30D0 /* SignInViewController.swift in Sources */,
+				5FA29D0F2B73215000C955F1 /* ForgotPasswordViewController.swift in Sources */,
 				5FCD2B602B6B726300C26CD8 /* OnBoardingCollectionViewCell.swift in Sources */,
 				5FCD2B692B6B734000C26CD8 /* OnBoardingSlide.swift in Sources */,
 				5FCD2B642B6B72C200C26CD8 /* OnBoardingViewController.swift in Sources */,
@@ -374,7 +398,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F9C9F472B74A0FB00706A5D /* NewPassViewController.swift in Sources */,
+				5FA29D102B73215000C955F1 /* ForgotPasswordViewController.swift in Sources */,
+				5FC089D92B722855004C30D0 /* SignInViewController.swift in Sources */,
 				5FBA709C2B70943F00B7E069 /* SignUpViewController.swift in Sources */,
+				5FA29D142B736FE300C955F1 /* OTPViewController.swift in Sources */,
 				5FCD2B6A2B6B734000C26CD8 /* OnBoardingSlide.swift in Sources */,
 				5FCD2B652B6B72C200C26CD8 /* OnBoardingViewController.swift in Sources */,
 				5FCD2B6F2B6B73A200C26CD8 /* UIView+Extensions.swift in Sources */,
@@ -387,10 +415,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FA29D152B736FE300C955F1 /* OTPViewController.swift in Sources */,
 				5FCD2B702B6B73A200C26CD8 /* UIView+Extensions.swift in Sources */,
+				5F9C9F482B74A0FB00706A5D /* NewPassViewController.swift in Sources */,
 				5FBA709D2B70943F00B7E069 /* SignUpViewController.swift in Sources */,
 				5FCD2B622B6B726300C26CD8 /* OnBoardingCollectionViewCell.swift in Sources */,
 				5FCD2B1F2B6B60DD00C26CD8 /* RediUITestsLaunchTests.swift in Sources */,
+				5FC089DA2B722855004C30D0 /* SignInViewController.swift in Sources */,
+				5FA29D112B73215000C955F1 /* ForgotPasswordViewController.swift in Sources */,
 				5FCD2B1D2B6B60DD00C26CD8 /* RediUITests.swift in Sources */,
 				5FCD2B662B6B72C200C26CD8 /* OnBoardingViewController.swift in Sources */,
 				5FCD2B6B2B6B734000C26CD8 /* OnBoardingSlide.swift in Sources */,
